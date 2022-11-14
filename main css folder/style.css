@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+:root {
+    --color-primary: white;
+    --color-secondary: apricot;
+    --color-melon: var(--color-melon);
+    --color-pink: hex(E5989B);
+    --color-plum: var(--color-plum);
+    --color-lavendar: hex(B5838D);
+    --color-pink_lavendar: hex(E0B1CB);
+    --color-lilac: hex(BE95C4);
+    --color-cultured: hex(E9ECEF);
+    --color-Gaingboro: hex(DEE2E6);
+    --br-s 2: 14px;
+}
+
+body {
+    background-color: var(--color-primary);
+    font-family: 'Great Vibes', sans-serif;
+    font-size: 1.1rem;
+    color: ghostwhite;
+    transition: .4s ease-in-out;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+header {
+    height: 100%;
+    color: ghostwhite;
+    overflow: hidden;
+}
+
+section {
+    min-height: 100vh;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 3rem 18rem;
+    background-color: hex(E9ECEF);
+}
+
+.section_one {}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Scrollbar Styles
+------------------------------------------ */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #EAE2B7;
+    border-radius: 1rem;
+}
+
+
+/* Element Styles
+------------------------------------------ */
+body {
+    background-color: #003049;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100px;
+    height: 50vh;
+    margin: 25vh 0;
+    background-color: #FCBF49;
+    border-radius: 1rem;
+}
+
+button {
+    margin: 2rem 0;
+    background-color: #EAE2B7;
+    padding: 1rem 0;
+    border: none;
+    border-radius: 10%;
+    width: 75%;
+    cursor: pointer;
+}
+
+.current-page {
+    margin-right: 5rem;
+    padding: 2rem;
+    height: 80vh;
+    width: 70vw;
+    border-radius: 1rem;
+    overflow-y: scroll;
+}
+
+.hidden-page {
+    display: none;
+}
+
+#page-1 {
+    background-color: #C492B1;
+}
+
+#page-2 {
+    background-color: #E0A97D;
+}
+
+#page-3 {
+    background-color: #3C887E;
+}
